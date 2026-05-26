@@ -1,0 +1,72 @@
+{
+  "quicksort": {
+    "description": "quick sort divide conquer partition pivot recursive fast comparison in-place unstable average optimal",
+    "claimed_complexity": "O(n log n)",
+    "binary": "athena_engine",
+    "bug_variants": ["fence_post", "wrong_pivot"],
+    "tags": ["sort", "recursive", "divide-conquer", "in-place"]
+  },
+  "mergesort": {
+    "description": "merge sort divide conquer merge stable recursive comparison auxiliary space out-of-place guaranteed",
+    "claimed_complexity": "O(n log n)",
+    "binary": "athena_engine",
+    "bug_variants": ["base_case"],
+    "tags": ["sort", "recursive", "divide-conquer", "stable"]
+  },
+  "bubblesort": {
+    "description": "bubble sort swap adjacent comparison simple slow quadratic naive stable exchange passes",
+    "claimed_complexity": "O(nÂ²)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["sort", "iterative", "simple", "stable"]
+  },
+  "heapsort": {
+    "description": "heap sort binary heap priority queue heapify in-place comparison sift down selection",
+    "claimed_complexity": "O(n log n)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["sort", "heap", "in-place", "unstable"]
+  },
+  "binarysearch": {
+    "description": "binary search sorted array divide middle logarithmic fast search halving lower upper bound",
+    "claimed_complexity": "O(log n)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["search", "sorted", "divide-conquer", "logarithmic"]
+  },
+  "linearsearch": {
+    "description": "linear search sequential scan iterate array unsorted simple brute force find element",
+    "claimed_complexity": "O(n)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["search", "iterative", "simple", "unsorted"]
+  },
+  "bfs": {
+    "description": "breadth first search graph level order queue traversal shortest path unweighted explore neighbours",
+    "claimed_complexity": "O(V+E)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["graph", "traversal", "queue", "shortest-path"]
+  },
+  "dfs": {
+    "description": "depth first search graph stack recursive traversal connected components backtrack explore path",
+    "claimed_complexity": "O(V+E)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["graph", "traversal", "recursive", "stack"]
+  },
+  "dijkstra": {
+    "description": "dijkstra shortest path weighted graph greedy priority queue minimum distance relaxation single source",
+    "claimed_complexity": "O((V+E) log V)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["graph", "shortest-path", "greedy", "weighted"]
+  },
+  "kruskal": {
+    "description": "kruskal minimum spanning tree greedy edges union find disjoint set sort forest MST",
+    "claimed_complexity": "O(E log E)",
+    "binary": "athena_engine",
+    "bug_variants": [],
+    "tags": ["graph", "spanning-tree", "greedy", "union-find"]
+  }
+}

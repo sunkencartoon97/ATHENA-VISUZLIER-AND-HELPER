@@ -1,0 +1,128 @@
+# Top-level requirements for ATHENA (mirrors backend/requirements.txt)
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+orjson==3.10.12
+pydantic==2.10.3
+httpx==0.28.1
+# ATHENA v3.0 - Project Requirements
+# This file contains all dependencies needed to run the project in a new virtual environment
+
+# ============================================================
+# BACKEND DEPENDENCIES (Python)
+# ============================================================
+# Install with: pip install -r requirements.txt
+
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+orjson==3.10.12
+pydantic==2.10.3
+httpx==0.28.1
+
+# ============================================================
+# FRONTEND DEPENDENCIES (Node.js)
+# ============================================================
+# Install with: cd frontend && npm install
+
+# Core Dependencies:
+# {
+#   "name": "athena-v3",
+#   "version": "3.0.0",
+#   "private": true,
+#   "scripts": {
+#     "dev": "next dev",
+#     "build": "next build",
+#     "start": "next start",
+#     "lint": "next lint"
+#   },
+#   "dependencies": {
+#     "clsx": "^2.1.0",
+#     "framer-motion": "^10.16.4",
+#     "lucide-react": "^0.368.0",
+#     "next": "14.2.0",
+#     "prism-react-renderer": "^2.4.1",
+#     "react": "^18",
+#     "react-d3-tree": "^3.6.6",
+#     "react-diff-viewer-continued": "^4.2.2",
+#     "react-dom": "^18",
+#     "reactflow": "^11.11.0",
+#     "reagraph": "^4.30.8",
+#     "recharts": "^2.12.0"
+#   },
+#   "devDependencies": {
+#     "@types/node": "^20",
+#     "@types/react": "^18",
+#     "@types/react-dom": "^18",
+#     "autoprefixer": "^10.0.1",
+#     "eslint": "^8",
+#     "eslint-config-next": "14.2.0",
+#     "playwright": "^1.59.1",
+#     "postcss": "^8",
+#     "tailwindcss": "^3.4.1",
+#     "typescript": "^5"
+#   }
+# }
+
+# ============================================================
+# SETUP INSTRUCTIONS FOR YOUR FRIEND
+# ============================================================
+
+# Step 1: Create a new virtual environment for Python
+# --------------------------------------------------
+# python -m venv .venv
+
+# Step 2: Activate the virtual environment
+# --------------------------------------------------
+# On Windows: .venv\Scripts\activate
+# On Mac/Linux: source .venv/bin/activate
+
+# Step 3: Install Python dependencies
+# --------------------------------------------------
+# pip install -r requirements.txt
+
+# Step 4: Start the backend server
+# --------------------------------------------------
+# cd backend
+# uvicorn main:app --reload --port 8000
+
+# Step 5: Install frontend dependencies (if needed)
+# --------------------------------------------------
+# cd frontend
+# npm install
+
+# Step 6: Start the frontend development server
+# --------------------------------------------------
+# npm run dev
+
+# ============================================================
+# PROJECT STRUCTURE
+# ============================================================
+# athena/
+# ├── backend/          # Python FastAPI backend
+# │   ├── main.py      # Entry point
+# │   ├── app.py       # App configuration
+# │   ├── config.py   # Config settings
+# │   ├── api/        # API routes
+# │   ├── models/     # Pydantic models
+# │   ├── services/   # Business logic
+# │   ├── utils/      # Utility functions
+# │   └── tests/      # Test files
+# │
+# ├── frontend/        # Next.js frontend
+# │   ├── app/        # Next.js app router pages
+# │   ├── components/ # React components
+# │   ├── lib/       # Library functions and hooks
+# │   └── ...
+# │
+# ├── engine/          # C++ algorithm engine
+# │   ├── src/       # C++ source files
+# │   ├── build/     # Build files
+# │   └── include/   # Header files
+# │
+# └── README_MY_FINAL_PROJECT.md
+
+# ============================================================
+# PORTS
+# ============================================================
+# Backend API:  http://localhost:8000
+# Frontend:     http://localhost:3000
+# API Docs:     http://localhost:8000/docs

@@ -1,0 +1,7 @@
+# ATHENA v3.0 Python backend dependencies
+
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+orjson==3.10.12
+pydantic==2.10.3
+httpx==0.28.1
