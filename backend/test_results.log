@@ -1,0 +1,101 @@
+--- Starting ATHENA Algorithm Tests at Mon Apr 27 22:30:19 2026 ---
+
+=========================================
+Testing Algorithm: QUICKSORT
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 18
+[PASS] /run-algorithm (cache) | Cache Events: 18
+[PASS] /benchmark | Claimed: O(N log N) | Measured: O(n log n) | Verdict: MATCH
+[PASS] /run-bug | Segments differing: 1
+[PASS] /run-whatif | Modified Steps: 20 vs Base: 18
+[PASS] /run-diff vs mergesort | Diff computed successfully
+
+=========================================
+Testing Algorithm: MERGESORT
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 38
+[PASS] /run-algorithm (cache) | Cache Events: 38
+[PASS] /benchmark | Claimed: O(N log N) | Measured: O(n log n) | Verdict: MATCH
+[PASS] /run-bug | Segments differing: 1
+[PASS] /run-whatif | Modified Steps: 37 vs Base: 38
+[PASS] /run-diff vs quicksort | Diff computed successfully
+
+=========================================
+Testing Algorithm: BINARYSEARCH
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 5
+[PASS] /run-algorithm (cache) | Cache Events: 5
+[PASS] /benchmark | Claimed: O(log N) | Measured: O(n log n) | Verdict: WORSE_THAN_CLAIMED
+[SKIP] /run-bug | No registered bug variants for binarysearch
+[PASS] /run-whatif | Modified Steps: 5 vs Base: 5
+[PASS] /run-diff vs linearsearch | Diff computed successfully
+
+=========================================
+Testing Algorithm: LINEARSEARCH
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 6
+[PASS] /run-algorithm (cache) | Cache Events: 6
+[PASS] /benchmark | Claimed: O(N) | Measured: UNVERIFIABLE | Verdict: UNVERIFIABLE
+[SKIP] /run-bug | No registered bug variants for linearsearch
+[PASS] /run-whatif | Modified Steps: 5 vs Base: 6
+[PASS] /run-diff vs binarysearch | Diff computed successfully
+
+=========================================
+Testing Algorithm: BFS
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 11
+[PASS] /run-algorithm (cache) | Cache Events: 11
+[PASS] /benchmark | Claimed: O(V + E) | Measured: O(n) | Verdict: UNVERIFIABLE
+[SKIP] /run-bug | No registered bug variants for bfs
+[PASS] /run-whatif | Modified Steps: 11 vs Base: 11
+[PASS] /run-diff vs dfs | Diff computed successfully
+
+=========================================
+Testing Algorithm: DFS
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 10
+[PASS] /run-algorithm (cache) | Cache Events: 10
+[PASS] /benchmark | Claimed: O(V + E) | Measured: O(n) | Verdict: UNVERIFIABLE
+[SKIP] /run-bug | No registered bug variants for dfs
+[PASS] /run-whatif | Modified Steps: 10 vs Base: 10
+[PASS] /run-diff vs bfs | Diff computed successfully
+
+=========================================
+Testing Algorithm: NQUEENS
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 79
+[PASS] /run-algorithm (cache) | Cache Events: 79
+[PASS] /benchmark | Claimed: O(N!) | Measured: UNVERIFIABLE | Verdict: UNVERIFIABLE
+[SKIP] /run-bug | No registered bug variants for nqueens
+[PASS] /run-whatif | Modified Steps: 79 vs Base: 79
+[PASS] /run-diff vs nqueens | Diff computed successfully
+
+=========================================
+Testing Algorithm: FIBONACCI
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 30
+[PASS] /run-algorithm (cache) | Cache Events: 30
+[PASS] /benchmark | Claimed: O(2^N) | Measured: O(n^2) | Verdict: BETTER_THAN_CLAIMED
+[SKIP] /run-bug | No registered bug variants for fibonacci
+[PASS] /run-whatif | Modified Steps: 30 vs Base: 30
+[PASS] /run-diff vs fibonaccidp | Diff computed successfully
+
+=========================================
+Testing Algorithm: KNAPSACK01
+=========================================
+[FAIL] /run-algorithm (trace) | Status: 500 | {"detail":{"error":"execution_failed","exit_code":139,"stderr":""}}
+[FAIL] /run-algorithm (cache) | Status: 500 | {"detail":{"error":"execution_failed","exit_code":139,"stderr":""}}
+[PASS] /benchmark | Claimed: O(N * W) | Measured: UNVERIFIABLE | Verdict: UNVERIFIABLE
+[SKIP] /run-bug | No registered bug variants for knapsack01
+[PASS] /run-whatif | Modified Steps: 574 vs Base: 294
+[FAIL] /run-diff vs fractionalknapsack | Status: 502 | {"detail":{"error":"algo_a_crashed","exit_code":139,"stderr":""}}
+
+=========================================
+Testing Algorithm: CHAINING
+=========================================
+[PASS] /run-algorithm (trace) | Step Count: 11
+[PASS] /run-algorithm (cache) | Cache Events: 11
+[PASS] /benchmark | Claimed: O(1) | Measured: O(n log n) | Verdict: WORSE_THAN_CLAIMED
+[SKIP] /run-bug | No registered bug variants for chaining
+[PASS] /run-whatif | Modified Steps: 11 vs Base: 11
+[PASS] /run-diff vs linearprobing | Diff computed successfully

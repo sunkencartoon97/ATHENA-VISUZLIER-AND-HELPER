@@ -1,0 +1,43 @@
+{
+  "total": 10,
+  "matches": 4,
+  "mismatches": 6,
+  "mismatches_list": [
+    {
+      "algo": "bfs",
+      "registry": "O(V+E)",
+      "bench": "O(V + E)",
+      "verdict": "UNVERIFIABLE"
+    },
+    {
+      "algo": "dfs",
+      "registry": "O(V+E)",
+      "bench": "O(V + E)",
+      "verdict": "UNVERIFIABLE"
+    },
+    {
+      "algo": "nqueens",
+      "registry": null,
+      "bench": "O(N!)",
+      "verdict": "BETTER_THAN_CLAIMED"
+    },
+    {
+      "algo": "fibonacci",
+      "registry": null,
+      "bench": "O(2^N)",
+      "verdict": "UNVERIFIABLE"
+    },
+    {
+      "algo": "knapsack01",
+      "registry": null,
+      "bench": "O(N * W)",
+      "verdict": "UNVERIFIABLE"
+    },
+    {
+      "algo": "chaining",
+      "registry": null,
+      "bench": "O(1)",
+      "verdict": "WORSE_THAN_CLAIMED"
+    }
+  ]
+}

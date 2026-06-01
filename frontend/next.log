@@ -1,0 +1,36 @@
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1429ms
+ ○ Compiling /run/[algo] ...
+ ✓ Compiled /run/[algo] in 2.5s (1638 modules)
+ ✓ Compiled in 168ms (824 modules)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\project\UMANG\athena\frontend\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js', but to 'c:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\handle-externals.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ GET /run/quicksort 200 in 2873ms
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\project\UMANG\athena\frontend\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js', but to 'c:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\project\UMANG\athena\frontend\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\project\UMANG\athena\frontend\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ✓ Compiled / in 339ms (1078 modules)
+ GET / 200 in 499ms
+ ✓ Compiled /run/[algo] in 120ms (821 modules)
+ ✓ Compiled /compare in 338ms (1648 modules)
+ ✓ Compiled /complexity in 452ms (1656 modules)
+ ✓ Compiled /cache in 272ms (1662 modules)

@@ -1,0 +1,211 @@
+ ⨯ ./components/visualizers/NQueensBoard.tsx
+Error: Failed to read source code from C:\project\UMANG\athena\frontend\components\visualizers\NQueensBoard.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/visualizers/NQueensBoard.tsx
+./components/visualizers/VisualizerRouter.tsx
+./app/compare/page.tsx
+ ⨯ ./components/visualizers/NQueensBoard.tsx
+Error: Failed to read source code from C:\project\UMANG\athena\frontend\components\visualizers\NQueensBoard.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/visualizers/NQueensBoard.tsx
+./components/visualizers/VisualizerRouter.tsx
+./app/compare/page.tsx
+ ⨯ ./lib/constants.ts
+Error: Failed to read source code from C:\project\UMANG\athena\frontend\lib\constants.ts
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./lib/constants.ts
+./app/compare/page.tsx
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>)
+digest: "2639000730"
+TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at require (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19509)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at require (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19509)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458) {
+  page: '/'
+}
+ ⨯ Failed to generate static paths for /run/[algo]:
+Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js
+- C:\project\UMANG\athena\frontend\.next\server\app\run\[algo]\page.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\load-components.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\build\utils.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\dev\static-paths-worker.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:198:28) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\project\\UMANG\\athena\\frontend\\.next\\server\\webpack-runtime.js',
+    'C:\\project\\UMANG\\athena\\frontend\\.next\\server\\app\\run\\[algo]\\page.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>)
+digest: "2639000730"
+TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at require (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19509)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:33:42)
+    at require (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19509)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\project\UMANG\athena\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458) {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js
+- C:\project\UMANG\athena\frontend\.next\server\pages\_document.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\load-components.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\build\utils.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\project\UMANG\athena\frontend\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:198:28)
+    at C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\project\UMANG\athena\frontend\.next\server\webpack-runtime.js:162:22)
+    at C:\project\UMANG\athena\frontend\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\project\UMANG\athena\frontend\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\require.js:109:84)
+    at C:\project\UMANG\athena\frontend\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\project\UMANG\athena\frontend\node_modules\next\dist\server\next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\project\\UMANG\\athena\\frontend\\.next\\server\\webpack-runtime.js',
+    'C:\\project\\UMANG\\athena\\frontend\\.next\\server\\pages\\_document.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\project\\UMANG\\athena\\frontend\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ ./components/visualizers/GraphVisualizer.tsx
+Error: Failed to read source code from C:\project\UMANG\athena\frontend\components\visualizers\GraphVisualizer.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/visualizers/GraphVisualizer.tsx
+./components/visualizers/VisualizerRouter.tsx
+./app/compare/page.tsx
+ ⨯ ./components/visualizers/GraphVisualizer.tsx
+Error: Failed to read source code from C:\project\UMANG\athena\frontend\components\visualizers\GraphVisualizer.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/visualizers/GraphVisualizer.tsx
+./components/visualizers/VisualizerRouter.tsx
+./app/compare/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\project\UMANG\athena\frontend\.next\cache\webpack\client-development\4.pack.gz_' -> 'C:\project\UMANG\athena\frontend\.next\cache\webpack\client-development\4.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\project\UMANG\athena\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\project\UMANG\athena\frontend\.next\cache\webpack\client-development\0.pack.gz'

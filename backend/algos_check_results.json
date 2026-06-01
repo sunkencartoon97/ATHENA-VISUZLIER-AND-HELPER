@@ -1,0 +1,222 @@
+﻿[
+    {
+        "algo":  "quicksort",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "mergesort",
+        "status":  "ok",
+        "step_count":  13
+    },
+    {
+        "algo":  "bubblesort",
+        "status":  "ok",
+        "step_count":  8
+    },
+    {
+        "algo":  "insertionsort",
+        "status":  "ok",
+        "step_count":  11
+    },
+    {
+        "algo":  "selectionsort",
+        "status":  "ok",
+        "step_count":  12
+    },
+    {
+        "algo":  "heapsort",
+        "status":  "ok",
+        "step_count":  9
+    },
+    {
+        "algo":  "countingsort",
+        "status":  "ok",
+        "step_count":  9
+    },
+    {
+        "algo":  "radixsort",
+        "status":  "ok",
+        "step_count":  8
+    },
+    {
+        "algo":  "bucketsort",
+        "status":  "ok",
+        "step_count":  7
+    },
+    {
+        "algo":  "randomizedquicksort",
+        "status":  "ok",
+        "step_count":  8
+    },
+    {
+        "algo":  "linearsearch",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "binarysearch",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "exponentialsearch",
+        "status":  "ok",
+        "step_count":  4
+    },
+    {
+        "algo":  "bfs",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "dfs",
+        "status":  "ok",
+        "step_count":  2
+    },
+    {
+        "algo":  "dijkstra",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "bellmanford",
+        "status":  "ok",
+        "step_count":  2
+    },
+    {
+        "algo":  "floydwarshall",
+        "status":  "ok",
+        "step_count":  7
+    },
+    {
+        "algo":  "kruskal",
+        "status":  "ok",
+        "step_count":  1
+    },
+    {
+        "algo":  "prim",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "topological",
+        "status":  "ok",
+        "step_count":  4
+    },
+    {
+        "algo":  "hamiltonpath",
+        "status":  "ok",
+        "step_count":  2
+    },
+    {
+        "algo":  "graphcoloring",
+        "status":  "ok",
+        "step_count":  7
+    },
+    {
+        "algo":  "kosaraju",
+        "status":  "ok",
+        "step_count":  13
+    },
+    {
+        "algo":  "fibonacci",
+        "status":  "ok",
+        "step_count":  10
+    },
+    {
+        "algo":  "hanoi",
+        "status":  "ok",
+        "step_count":  15
+    },
+    {
+        "algo":  "subsetsum",
+        "status":  "ok",
+        "step_count":  7
+    },
+    {
+        "algo":  "nqueens",
+        "status":  "ok",
+        "step_count":  26
+    },
+    {
+        "algo":  "knapsack01",
+        "status":  "ok",
+        "step_count":  15
+    },
+    {
+        "algo":  "lcs",
+        "status":  "ok",
+        "step_count":  29
+    },
+    {
+        "algo":  "matrixchain",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "lis",
+        "status":  "ok",
+        "step_count":  9
+    },
+    {
+        "algo":  "fibonaccidp",
+        "status":  "ok",
+        "step_count":  9
+    },
+    {
+        "algo":  "chaining",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "linearprobing",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "quadraticprobing",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "doublehashing",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "naivematch",
+        "status":  "ok",
+        "step_count":  50
+    },
+    {
+        "algo":  "kmp",
+        "status":  "ok",
+        "step_count":  30
+    },
+    {
+        "algo":  "rabinkarp",
+        "status":  "ok",
+        "step_count":  44
+    },
+    {
+        "algo":  "activityselection",
+        "status":  "ok",
+        "step_count":  14
+    },
+    {
+        "algo":  "jobsequencing",
+        "status":  "ok",
+        "step_count":  3
+    },
+    {
+        "algo":  "huffman",
+        "status":  "ok",
+        "step_count":  6
+    },
+    {
+        "algo":  "fractionalknapsack",
+        "status":  "ok",
+        "step_count":  2
+    }
+]

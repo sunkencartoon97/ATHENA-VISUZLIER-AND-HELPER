@@ -1,0 +1,105 @@
+
+> athena-v3@3.0.0 dev
+> next dev --hostname 0.0.0.0 --port 3001
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3001
+  - Network:      http://0.0.0.0:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1425ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1320ms (554 modules)
+ GET / 200 in 1467ms
+ ✓ Compiled in 173ms (282 modules)
+ ○ Compiling /compare ...
+ ✓ Compiled /compare in 3s (3502 modules)
+ GET /compare 200 in 3105ms
+ ○ Compiling /run/[algo] ...
+ ✓ Compiled /run/[algo] in 616ms (3546 modules)
+ GET /run/lcs 200 in 896ms
+ GET / 200 in 48ms
+ GET /compare 200 in 41ms
+ GET /run/lcs 200 in 46ms
+ ✓ Compiled in 274ms (1742 modules)
+ ✓ Compiled in 154ms (1756 modules)
+ ✓ Compiled in 152ms (1756 modules)
+ ✓ Compiled in 219ms (1756 modules)
+ ✓ Compiled in 192ms (1756 modules)
+ ✓ Compiled in 153ms (1756 modules)
+ ✓ Compiled in 136ms (1756 modules)
+ ✓ Compiled in 200ms (1756 modules)
+ ✓ Compiled in 151ms (1756 modules)
+ ✓ Compiled in 126ms (1756 modules)
+ ✓ Compiled in 132ms (1756 modules)
+ ✓ Compiled in 193ms (1756 modules)
+ ✓ Compiled in 154ms (1756 modules)
+ ✓ Compiled in 129ms (1756 modules)
+ ✓ Compiled in 283ms (1742 modules)
+ ✓ Compiled in 169ms (1756 modules)
+ ✓ Compiled in 132ms (1742 modules)
+ ✓ Compiled in 176ms (1756 modules)
+ ✓ Compiled in 167ms (1756 modules)
+ ✓ Compiled in 116ms (1742 modules)
+ ✓ Compiled in 133ms (1756 modules)
+ ✓ Compiled in 252ms (1742 modules)
+ ✓ Compiled in 343ms (1742 modules)
+ ✓ Compiled in 127ms (1742 modules)
+ ✓ Compiled in 173ms (1756 modules)
+ ✓ Compiled in 169ms (1757 modules)
+ ✓ Compiled in 162ms (1758 modules)
+ ✓ Compiled in 291ms (1758 modules)
+ ✓ Compiled in 251ms (1758 modules)
+ ✓ Compiled in 304ms (1758 modules)
+ ✓ Compiled in 209ms (1758 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 1130ms (272 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 976ms (2240 modules)
+ GET / 500 in 2389ms
+ GET / 200 in 97ms
+ ✓ Compiled in 407ms (1940 modules)
+ ✓ Compiled in 282ms (1940 modules)
+ ✓ Compiled in 278ms (1940 modules)
+ ✓ Compiled in 250ms (1940 modules)
+ ✓ Compiled in 295ms (1926 modules)
+ ✓ Compiled in 247ms (1974 modules)
+ ○ Compiling /compare ...
+ ✓ Compiled /compare in 5.5s (1779 modules)
+ ✓ Compiled in 861ms (1929 modules)
+ GET /whatif 200 in 6828ms
+ GET /run/lcs 200 in 6855ms
+ GET /compare 200 in 6822ms
+ ○ Compiling /run/[algo] ...
+ ✓ Compiled /run/[algo] in 3s (4511 modules)
+ GET /bug-injection 200 in 3377ms
+ GET /cache 200 in 3265ms
+ GET /run/quicksort 200 in 3260ms
+ GET /complexity 200 in 3394ms
+ ✓ Compiled in 692ms (4525 modules)
+ ✓ Compiled in 598ms (4525 modules)
+ ✓ Compiled / in 46ms (312 modules)
+ ✓ Compiled /_error in 445ms (2612 modules)
+ GET / 500 in 1414ms
+ ✓ Compiled in 412ms (2312 modules)
+ ✓ Compiled in 308ms (2312 modules)
+ ✓ Compiled in 351ms (2312 modules)
+ ✓ Compiled in 312ms (2312 modules)
+ ✓ Compiled in 318ms (2312 modules)
+ ✓ Compiled in 393ms (2312 modules)
+ ✓ Compiled in 318ms (2312 modules)
+ ✓ Compiled in 424ms (2312 modules)
+ ✓ Compiled in 354ms (2312 modules)
+ ✓ Compiled in 234ms (1624 modules)
+ ✓ Compiled in 335ms (1624 modules)
+ ✓ Compiled in 291ms (1624 modules)
+ ✓ Compiled in 242ms (1624 modules)
+ ✓ Compiled in 238ms (1624 modules)
+ ✓ Compiled in 1154ms (1658 modules)
+ ✓ Compiled in 403ms (1624 modules)
+ ✓ Compiled in 257ms (1624 modules)
+ ✓ Compiled in 734ms (1624 modules)
+ ✓ Compiled in 227ms (1624 modules)
+ ✓ Compiled in 281ms (1624 modules)
+ ✓ Compiled in 230ms (1624 modules)

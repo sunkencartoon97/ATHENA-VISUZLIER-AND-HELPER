@@ -1,0 +1,593 @@
+{
+  "generatedAt": "2026-04-27T16:41:43.085Z",
+  "baseUrl": "http://127.0.0.1:3004",
+  "featurePass": 7,
+  "featureFail": 0,
+  "algoPass": 45,
+  "algoFail": 0,
+  "featureResults": [
+    {
+      "route": "/",
+      "url": "http://127.0.0.1:3004/",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/compare",
+      "url": "http://127.0.0.1:3004/compare",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__compare.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/complexity",
+      "url": "http://127.0.0.1:3004/complexity",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__complexity.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/cache",
+      "url": "http://127.0.0.1:3004/cache",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__cache.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/bug-injection",
+      "url": "http://127.0.0.1:3004/bug-injection",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__bug-injection.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/whatif",
+      "url": "http://127.0.0.1:3004/whatif",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__whatif.png",
+      "ok": true,
+      "error": null
+    },
+    {
+      "route": "/turing",
+      "url": "http://127.0.0.1:3004/turing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\feature__turing.png",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "algoResults": [
+    {
+      "algo": "bubblesort",
+      "url": "http://127.0.0.1:3004/run/bubblesort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_bubblesort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "insertionsort",
+      "url": "http://127.0.0.1:3004/run/insertionsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_insertionsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "selectionsort",
+      "url": "http://127.0.0.1:3004/run/selectionsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_selectionsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "quicksort",
+      "url": "http://127.0.0.1:3004/run/quicksort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_quicksort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "mergesort",
+      "url": "http://127.0.0.1:3004/run/mergesort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_mergesort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "heapsort",
+      "url": "http://127.0.0.1:3004/run/heapsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_heapsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "countingsort",
+      "url": "http://127.0.0.1:3004/run/countingsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_countingsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "radixsort",
+      "url": "http://127.0.0.1:3004/run/radixsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_radixsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "bucketsort",
+      "url": "http://127.0.0.1:3004/run/bucketsort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_bucketsort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "randomizedquicksort",
+      "url": "http://127.0.0.1:3004/run/randomizedquicksort",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_randomizedquicksort.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "linearsearch",
+      "url": "http://127.0.0.1:3004/run/linearsearch",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_linearsearch.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "binarysearch",
+      "url": "http://127.0.0.1:3004/run/binarysearch",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_binarysearch.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": []
+    },
+    {
+      "algo": "exponentialsearch",
+      "url": "http://127.0.0.1:3004/run/exponentialsearch",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_exponentialsearch.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "bfs",
+      "url": "http://127.0.0.1:3004/run/bfs",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_bfs.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "dfs",
+      "url": "http://127.0.0.1:3004/run/dfs",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_dfs.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "dijkstra",
+      "url": "http://127.0.0.1:3004/run/dijkstra",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_dijkstra.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "bellmanford",
+      "url": "http://127.0.0.1:3004/run/bellmanford",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_bellmanford.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "floydwarshall",
+      "url": "http://127.0.0.1:3004/run/floydwarshall",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_floydwarshall.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "kruskal",
+      "url": "http://127.0.0.1:3004/run/kruskal",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_kruskal.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "prim",
+      "url": "http://127.0.0.1:3004/run/prim",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_prim.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "topological",
+      "url": "http://127.0.0.1:3004/run/topological",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_topological.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "hamiltonpath",
+      "url": "http://127.0.0.1:3004/run/hamiltonpath",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_hamiltonpath.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "graphcoloring",
+      "url": "http://127.0.0.1:3004/run/graphcoloring",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_graphcoloring.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "kosaraju",
+      "url": "http://127.0.0.1:3004/run/kosaraju",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_kosaraju.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "fibonacci",
+      "url": "http://127.0.0.1:3004/run/fibonacci",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_fibonacci.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "hanoi",
+      "url": "http://127.0.0.1:3004/run/hanoi",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_hanoi.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "subsetsum",
+      "url": "http://127.0.0.1:3004/run/subsetsum",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_subsetsum.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "nqueens",
+      "url": "http://127.0.0.1:3004/run/nqueens",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_nqueens.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "knapsack01",
+      "url": "http://127.0.0.1:3004/run/knapsack01",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_knapsack01.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "lcs",
+      "url": "http://127.0.0.1:3004/run/lcs",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_lcs.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "matrixchain",
+      "url": "http://127.0.0.1:3004/run/matrixchain",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_matrixchain.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "lis",
+      "url": "http://127.0.0.1:3004/run/lis",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_lis.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "fibonaccidp",
+      "url": "http://127.0.0.1:3004/run/fibonaccidp",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_fibonaccidp.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "chaining",
+      "url": "http://127.0.0.1:3004/run/chaining",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_chaining.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "linearprobing",
+      "url": "http://127.0.0.1:3004/run/linearprobing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_linearprobing.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "quadraticprobing",
+      "url": "http://127.0.0.1:3004/run/quadraticprobing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_quadraticprobing.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "doublehashing",
+      "url": "http://127.0.0.1:3004/run/doublehashing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_doublehashing.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "naivematch",
+      "url": "http://127.0.0.1:3004/run/naivematch",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_naivematch.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "kmp",
+      "url": "http://127.0.0.1:3004/run/kmp",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_kmp.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "rabinkarp",
+      "url": "http://127.0.0.1:3004/run/rabinkarp",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_rabinkarp.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "activityselection",
+      "url": "http://127.0.0.1:3004/run/activityselection",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_activityselection.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "jobsequencing",
+      "url": "http://127.0.0.1:3004/run/jobsequencing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_jobsequencing.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "huffman",
+      "url": "http://127.0.0.1:3004/run/huffman",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_huffman.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "fractionalknapsack",
+      "url": "http://127.0.0.1:3004/run/fractionalknapsack",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_fractionalknapsack.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ]
+    },
+    {
+      "algo": "turing",
+      "url": "http://127.0.0.1:3004/run/turing",
+      "screenshot": "C:\\project\\UMANG\\athena\\frontend\\test-artifacts\\ui-screenshots\\algo_turing.png",
+      "ok": true,
+      "error": null,
+      "consoleErrors": []
+    }
+  ]
+}

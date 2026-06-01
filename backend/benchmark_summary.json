@@ -1,0 +1,62 @@
+{
+  "quicksort": {
+    "registry_claimed": "O(n log n)",
+    "bench_claimed": "O(N log N)",
+    "measured": "O(n log n)",
+    "verdict": "MATCH"
+  },
+  "mergesort": {
+    "registry_claimed": "O(n log n)",
+    "bench_claimed": "O(N log N)",
+    "measured": "O(n log n)",
+    "verdict": "MATCH"
+  },
+  "binarysearch": {
+    "registry_claimed": "O(log n)",
+    "bench_claimed": "O(log N)",
+    "measured": "O(n log n)",
+    "verdict": "WORSE_THAN_CLAIMED"
+  },
+  "linearsearch": {
+    "registry_claimed": "O(n)",
+    "bench_claimed": "O(N)",
+    "measured": "O(n log n)",
+    "verdict": "WORSE_THAN_CLAIMED"
+  },
+  "bfs": {
+    "registry_claimed": "O(V+E)",
+    "bench_claimed": "O(V + E)",
+    "measured": "O(n)",
+    "verdict": "UNVERIFIABLE"
+  },
+  "dfs": {
+    "registry_claimed": "O(V+E)",
+    "bench_claimed": "O(V + E)",
+    "measured": "O(n)",
+    "verdict": "UNVERIFIABLE"
+  },
+  "nqueens": {
+    "registry_claimed": null,
+    "bench_claimed": "O(N!)",
+    "measured": "O(n^3)",
+    "verdict": "BETTER_THAN_CLAIMED"
+  },
+  "fibonacci": {
+    "registry_claimed": null,
+    "bench_claimed": "O(2^N)",
+    "measured": "UNVERIFIABLE",
+    "verdict": "UNVERIFIABLE"
+  },
+  "knapsack01": {
+    "registry_claimed": null,
+    "bench_claimed": "O(N * W)",
+    "measured": "UNVERIFIABLE",
+    "verdict": "UNVERIFIABLE"
+  },
+  "chaining": {
+    "registry_claimed": null,
+    "bench_claimed": "O(1)",
+    "measured": "O(n)",
+    "verdict": "WORSE_THAN_CLAIMED"
+  }
+}

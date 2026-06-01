@@ -1,0 +1,4 @@
+
+> athena-v3@3.0.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+

@@ -1,0 +1,266 @@
+{
+  "quicksort": {
+    "status": "ok",
+    "step_count": 10,
+    "truncated": false,
+    "wall_ms": 59.89
+  },
+  "mergesort": {
+    "status": "ok",
+    "step_count": 20,
+    "truncated": false,
+    "wall_ms": 59.96
+  },
+  "bubblesort": {
+    "status": "ok",
+    "step_count": 13,
+    "truncated": false,
+    "wall_ms": 56.24
+  },
+  "insertionsort": {
+    "status": "ok",
+    "step_count": 16,
+    "truncated": false,
+    "wall_ms": 57.54
+  },
+  "selectionsort": {
+    "status": "ok",
+    "step_count": 19,
+    "truncated": false,
+    "wall_ms": 56.97
+  },
+  "heapsort": {
+    "status": "ok",
+    "step_count": 19,
+    "truncated": false,
+    "wall_ms": 57.14
+  },
+  "countingsort": {
+    "status": "ok",
+    "step_count": 12,
+    "truncated": false,
+    "wall_ms": 58.89
+  },
+  "radixsort": {
+    "status": "ok",
+    "step_count": 10,
+    "truncated": false,
+    "wall_ms": 59.71
+  },
+  "bucketsort": {
+    "status": "ok",
+    "step_count": 9,
+    "truncated": false,
+    "wall_ms": 57.99
+  },
+  "randomizedquicksort": {
+    "status": "ok",
+    "step_count": 13,
+    "truncated": false,
+    "wall_ms": 58.74
+  },
+  "linearsearch": {
+    "status": "ok",
+    "step_count": 6,
+    "truncated": false,
+    "wall_ms": 57.79
+  },
+  "binarysearch": {
+    "status": "ok",
+    "step_count": 4,
+    "truncated": false,
+    "wall_ms": 61.48
+  },
+  "exponentialsearch": {
+    "status": "ok",
+    "step_count": 5,
+    "truncated": false,
+    "wall_ms": 57.02
+  },
+  "bfs": {
+    "status": "ok",
+    "step_count": 3,
+    "truncated": false,
+    "wall_ms": 58.01
+  },
+  "dfs": {
+    "status": "ok",
+    "step_count": 2,
+    "truncated": false,
+    "wall_ms": 58.71
+  },
+  "dijkstra": {
+    "status": "ok",
+    "step_count": 3,
+    "truncated": false,
+    "wall_ms": 57.63
+  },
+  "bellmanford": {
+    "status": "ok",
+    "step_count": 2,
+    "truncated": false,
+    "wall_ms": 60.13
+  },
+  "floydwarshall": {
+    "status": "ok",
+    "step_count": 7,
+    "truncated": false,
+    "wall_ms": 61.07
+  },
+  "kruskal": {
+    "status": "ok",
+    "step_count": 1,
+    "truncated": false,
+    "wall_ms": 58.18
+  },
+  "prim": {
+    "status": "ok",
+    "step_count": 3,
+    "truncated": false,
+    "wall_ms": 58.07
+  },
+  "topological": {
+    "status": "ok",
+    "step_count": 4,
+    "truncated": false,
+    "wall_ms": 58.43
+  },
+  "hamiltonpath": {
+    "status": "ok",
+    "step_count": 2,
+    "truncated": false,
+    "wall_ms": 57.01
+  },
+  "graphcoloring": {
+    "status": "ok",
+    "step_count": 7,
+    "truncated": false,
+    "wall_ms": 57.81
+  },
+  "kosaraju": {
+    "status": "ok",
+    "step_count": 13,
+    "truncated": false,
+    "wall_ms": 57.18
+  },
+  "fibonacci": {
+    "status": "ok",
+    "step_count": 10,
+    "truncated": false,
+    "wall_ms": 57.44
+  },
+  "hanoi": {
+    "status": "ok",
+    "step_count": 15,
+    "truncated": false,
+    "wall_ms": 58.04
+  },
+  "subsetsum": {
+    "status": "ok",
+    "step_count": 11,
+    "truncated": false,
+    "wall_ms": 59.73
+  },
+  "nqueens": {
+    "status": "ok",
+    "step_count": 26,
+    "truncated": false,
+    "wall_ms": 57.08
+  },
+  "knapsack01": {
+    "status": "ok",
+    "step_count": 13,
+    "truncated": false,
+    "wall_ms": 57.42
+  },
+  "lcs": {
+    "status": "ok",
+    "step_count": 36,
+    "truncated": false,
+    "wall_ms": 56.6
+  },
+  "matrixchain": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 59.35
+  },
+  "lis": {
+    "status": "ok",
+    "step_count": 15,
+    "truncated": false,
+    "wall_ms": 57.61
+  },
+  "fibonaccidp": {
+    "status": "ok",
+    "step_count": 9,
+    "truncated": false,
+    "wall_ms": 57.94
+  },
+  "chaining": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 57.41
+  },
+  "linearprobing": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 57.25
+  },
+  "quadraticprobing": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 57.68
+  },
+  "doublehashing": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 56.92
+  },
+  "naivematch": {
+    "status": "ok",
+    "step_count": 50,
+    "truncated": false,
+    "wall_ms": 58.55
+  },
+  "kmp": {
+    "status": "ok",
+    "step_count": 30,
+    "truncated": false,
+    "wall_ms": 56.5
+  },
+  "rabinkarp": {
+    "status": "ok",
+    "step_count": 44,
+    "truncated": false,
+    "wall_ms": 57.61
+  },
+  "activityselection": {
+    "status": "ok",
+    "step_count": 5,
+    "truncated": false,
+    "wall_ms": 56.25
+  },
+  "jobsequencing": {
+    "status": "ok",
+    "step_count": 3,
+    "truncated": false,
+    "wall_ms": 56.82
+  },
+  "huffman": {
+    "status": "ok",
+    "step_count": 8,
+    "truncated": false,
+    "wall_ms": 57.18
+  },
+  "fractionalknapsack": {
+    "status": "ok",
+    "step_count": 2,
+    "truncated": false,
+    "wall_ms": 55.89
+  }
+}
